@@ -8,10 +8,8 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class) 
  
-@CucumberOptions(features = "Feature", plugin = { "pretty", "html:target/cucmberRaport" }, monochrome = true)
+@CucumberOptions(features = "Feature")
 
-public class CucumberStarter {
+public class CreateStarter {
 
-	
-	}
-
+}
